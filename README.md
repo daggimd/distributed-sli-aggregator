@@ -41,3 +41,7 @@ psql -d sli_aggregator -f database/analytical_views.sql
 uvicorn api.main:app --reload
 ```
 Visit `http://localhost:8000/docs` to explore the interactive Swagger API documentation.
+
+## Dashboard Preview
+
+![Distributed SLI/SLO Reliability Dashboard](tableau_exports/dashboard_overview.png)
