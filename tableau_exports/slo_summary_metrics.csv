@@ -1,0 +1,5 @@
+service_id,service_name,tier,target_slo_percent,target_p95_ms,total_requests,failed_requests,actual_availability_percent,avg_p95_latency_ms,peak_p99_latency_ms,allowed_error_percent,observed_error_percent,error_budget_burn_rate
+svc-chk-03,Google Checkout Engine,CRITICAL,99.99,250,12128,42,99.654,305.36,1083.50,0.010,0.346,34.63
+svc-auth-01,User Authentication Service,CRITICAL,99.95,120,12125,9,99.926,61.53,318.52,0.050,0.074,1.48
+svc-cat-02,Product Catalog Service,HIGH,99.90,180,12269,17,99.861,142.62,702.07,0.100,0.139,1.39
+svc-rec-04,Search Recommendation API,MEDIUM,99.50,350,12228,85,99.305,849.03,1775.83,0.500,0.695,1.39
